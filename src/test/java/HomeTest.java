@@ -28,12 +28,25 @@ public class HomeTest {
            f =  list.get(i);
            f.click();
         }
-        if (list.equals("Home"))
-        {
-            f =  list.get(i);
-            f.click();
-        }
+//        if (list.equals("Home"))
+//        {
+//            f =  list.get(i);
+//            f.click();
+//        }
     }
+        for(int i = 0;i < list.size()-1;i++){
+            if (list.equals("Home"))
+            {
+                f =  list.get(i);
+                f.click();
+            }
+//        if (list.equals("Home"))
+//        {
+//            f =  list.get(i);
+//            f.click();
+//        }
+        }
+
 
 
 
