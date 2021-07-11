@@ -50,11 +50,18 @@ public class HomeTest {
 
 
 
+
+    }
+    @Test
+    public void loginTest2(){
+        wd.findElement(By.cssSelector("[placeholder$='Email']")).click();
+        // wd.findElement(By.cssSelector("[placeholder$='Email']")).clear();
+        // wd.findElement(By.cssSelector("[placeholder$='Email']")).sendKeys("maria9@gmail.com");
     }
     @AfterMethod
     public void postCondition(){
         // wd.quit();
-         wd.close();
+       //  wd.close();
     }
 
 }
